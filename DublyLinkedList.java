@@ -124,24 +124,3 @@ class Node {
 }
 
 
-public class App {
-
-    public static void main(String[] args) {
-        DublyLinkedList l = new DublyLinkedList();
-        l.InsertFromStart(1);
-        l.InsertFromStart(2);
-        l.InsertFromStart(3);
-        l.InsertFromStart(4);
-        l.InsertFromStart(5);
-        l.InsertFromEnd(0);
-        l.InsertFromEnd(-1);
-
-        l.DeleteLastNode();
-        l.TravelEnd();
-        System.out.println("  ");
-        l.TravelStart();
-
-       
-    }
-    
-}
